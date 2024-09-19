@@ -24,11 +24,7 @@ for(let r=0;r<rows;r++){
         row.push('');
         const cell = document.createElement('div');
         cell.classList.add('cell');
- cell.dataset.row=r;
- cell.dataset.colo=c;
- cell.addEventListener('click',handleCellClick);
- gameBoard.appendChild(cell)
-;
+ 
+        
     }
-    board.push(row);
 }

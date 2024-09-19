@@ -27,8 +27,7 @@ for(let r=0;r<rows;r++){
  cell.dataset.row=r;
  cell.dataset.colo=c;
  cell.addEventListener('click',handleCellClick);
- gameBoard.appendChild(cell)
-;
+ game
+
     }
-    board.push(row);
 }

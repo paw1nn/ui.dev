@@ -30,5 +30,5 @@ for(let r=0;r<rows;r++){
  gameBoard.appendChild(cell)
 ;
     }
-    board.push(row);
+    board.
 }

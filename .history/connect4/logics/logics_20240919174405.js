@@ -21,14 +21,6 @@ function intializeBoard(){
 for(let r=0;r<rows;r++){
     const row=[];
     for(let c=0;c<cols;c++){
-        row.push('');
-        const cell = document.createElement('div');
-        cell.classList.add('cell');
- cell.dataset.row=r;
- cell.dataset.colo=c;
- cell.addEventListener('click',handleCellClick);
- gameBoard.appendChild(cell)
-;
+        row.
     }
-    board.push(row);
 }
