@@ -55,7 +55,7 @@ function checkWin(row,col){
     return checkDirection(row,col,1,0);
            checkDirection(row,col,0,1);
            checkDirection(row,col,1,1);
-           checkDirection(row,col,1,-1);
+           checkDirection(row,col,1,1)
 
 }
 intializeBoard()

@@ -44,18 +44,8 @@ function handleEvent(event){
     if(gameOver) return;
     const col = parseInt(event.target.dataset.col);
     const row=findAvailableRow(col);
-if(row==-1){
-    board[row][col]=currentPlayer;
+'
 
-}
+'}
 
-}
-
-function checkWin(row,col){
-    return checkDirection(row,col,1,0);
-           checkDirection(row,col,0,1);
-           checkDirection(row,col,1,1);
-           checkDirection(row,col,1,-1);
-
-}
 intializeBoard()
