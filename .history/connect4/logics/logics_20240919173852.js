@@ -1,4 +1,3 @@
 const gameBoard = document.getElementById('game-board');
 const statusText =document.getElementById('status');
-const resetButton =document.getElementById('reset');
-
+const resetButton =document.getElementById
