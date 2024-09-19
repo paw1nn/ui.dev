@@ -7,4 +7,3 @@ let board =[];
 let currentPlayer = 'red';
 let gameOver =false;
 const rows =6;
-const cols =7;

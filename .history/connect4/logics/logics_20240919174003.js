@@ -4,7 +4,4 @@ const resetButton =document.getElementById('reset');
 
 
 let board =[];
-let currentPlayer = 'red';
-let gameOver =false;
-const rows =6;
-const cols =7;
+let currentPlayer = 'red'
